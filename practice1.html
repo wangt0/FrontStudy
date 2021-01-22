@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>练习一</title>
+<style type="text/css">
+#head {
+	height: 80px;
+	width: 800px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-left-color: #000;
+}
+
+#content {
+	height: 550px;
+	width: 800px;
+	border: 2px solid #000;
+}
+
+#footer {
+	height: 25px;
+	width: 800px;
+	border: 2px solid #000;
+	text-align:center
+}
+
+#head-logo {
+	height: 50px;
+	width: 800px;
+}
+
+
+#head-navi {
+	height: 30px;
+	width: 800px;
+}
+
+#content-title {
+	height: 50px;
+	width: 800px;
+}
+#content-personal {
+	height: 150px;
+	width: 800px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#content-contact {
+	height: 50px;
+	width: 800px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#content-address1 {
+	height: 150px;
+	width: 800px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#content-address2 {
+	height: 100px;
+	width: 800px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#content-submit {
+	height: 50px;
+	width: 800px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="head" id="head">
+	<div class="head-logo" id="head-logo">LOGO</div>
+    <div class="head-navi" id="head-navi">
+      <table width="100%" height="100%" border="1" cellspacing="0" bordercolor="#000">
+        <tr>
+          <td width="156">Itroduction</td>
+          <td width="160">Company</td>
+          <td width="160">About You</td>
+          <td width="160">Trust</td>
+          <td width="160">Foreign Tax</td>
+        </tr>
+      </table>
+    </div>
+</div>
+<div class="content" id="content">
+	<div class="content-title" id="content-title">content-title</div>
+    <div class="content-personal" id="content-personal">
+      <table width="100%" height="100%" border="0" cellspacing="10" cellpadding="1">
+        <tr>
+        <td width="150"></td>
+        <td>
+            <select style="width:100%">
+              <option value ="">Nationality</option>
+              <option value ="China">China</option>
+            </select>
+        </td>
+        <td>
+            <select style="width:100%">
+               <option value ="">Title</option>
+            </select>
+        </td>
+        <td>
+            <select style="width:100%">
+               <option value ="">Gneder</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+          <td width="150">Personnal Details</td>
+          <td><input type="text" name="name" value="Given Name"  style="width:100%"/></td>
+          <td><input style="border-top:0;border-left:0;border-right:0;" type="text" value="Middle Name" /></td>
+          <td><input type="text" name="surname" value="Surname"  style="width:100%"/></td>
+        </tr>
+        <tr>
+          <td width="150"></td>
+          <td><input type="text" name="birthday" value="Date of Birth"  style="width:100%"/></td>
+          <td><input type="text" name="place" value="Place of Birth"  style="width:100%"/></td>
+        </tr>
+      </table>
+    	 
+  </div>
+    <div class="content-contact" id="content-contact">
+    <table width="100%" height="100%" border="0" cellspacing="10" cellpadding="1">
+          <tr>
+          <td width="150">Contact Details</td>
+           <td><input style="border-top:0;border-left:0;border-right:0;" type="text" value="Email" /></td>
+           <td><input type="text" name="mobile" value="Mobile"  style="width:100%"/></td>
+           <td><input type="text" name="otherPhone" value="Other Phone"  style="width:100%"/></td>
+        </tr>
+      </table>
+    </div>
+    <div class="content-address1" id="content-address1">
+    	<table width="100%" height="100%" border="0" cellspacing="10" cellpadding="1">
+        <tr>
+      	  <td width="150"></td>
+          <td><input type="text" name="residentialAddress" value="Residential Address"  style="width:100%"/></td>
+        </tr>
+        <tr>
+          <td width="150">Address Details</td>
+          <td width="200"><input type="text" name="postalAddress" value="Postal Address"  style="width:100%"/></td>
+          <td><input type="checkbox" name="category" value="" />same as residential address</td>
+        </tr>
+        <tr>
+         <td width="150"></td>
+         <td>
+         	<input name="Fruit" type="radio" value="" />More Than 3 Days
+         </td>
+         <td><input name="Fruit" type="radio" value="" />Less Than 3 Days</td>
+        </tr>
+      </table>
+    </div>
+    <div class="content-address2" id="content-address2">
+     <table width="100%" height="100%" border="0" cellspacing="10" cellpadding="1">
+      	<tr>
+      	  <td width="150"></td>
+          <td><input type="text" name="residentialAddress" value="Residential Address"  style="width:100%"/></td>
+        </tr>
+       <tr>
+          <td width="150">Address Details</td>
+          <td width="200"><input type="text" name="postalAddress" value="Postal Address"  style="width:100%"/></td>
+          <td><input type="checkbox" name="category" value="" />same as residential address</td>
+        </tr>
+      </table>
+    </div>
+    <div class="content-submit" id="content-submit">
+    	<table width="100%" height="100%" border="0" cellspacing="10" cellpadding="1">
+      	<tr>
+      	  <td width="150"></td>
+          <td width="150"></td>
+          <td width="150"></td>
+          <td width="150"></td>
+          <td><button>Continue</button></td>
+        </tr>
+        </table>
+    </div>
+</div>
+<div class="footer" id="footer">&copy;There are many... </div>
+</body>
+</html>
